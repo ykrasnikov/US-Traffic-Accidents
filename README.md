@@ -3,8 +3,9 @@ Team 3 Rice Bootcamp Project 1
 
 Code was created using **Jupiter Notebook 6.0.3 /Python 3.8.3**
 
-<img src="Images/team.gif" align="right" height="300"/>
-<img src="Images/creative.jpg" align="left" height="300"/>
+<img src="Images/team.gif" align="center" height="320"/>
+
+<img src="Images/creative.jpg" align="left" height="320"/>
 
 ## 1. Data
 
