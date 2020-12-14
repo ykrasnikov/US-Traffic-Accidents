@@ -1,5 +1,9 @@
 # Team 3 Project 1
 Team 3 Rice Bootcamp Project 1 
+# USA Traffic accidents 
+## Team Members:
+
+**_Avery Croley, Orlando Ortega, Patricia Berry,Thomas Oliver, Yakov Krasnikov_**
 
 Code was created using **Jupiter Notebook 6.0.3 /Python 3.8.3**
 
@@ -25,11 +29,26 @@ Code was created using **Jupiter Notebook 6.0.3 /Python 3.8.3**
     4. Your conclusions including a numerical summary and visualizations of the summary
     5. The implications of your findings: what do your findings mean?
 
+# Project Description 
+ We will use Kaggle's countrywide car accident dataset, which covers 49 states of the USA (The accident data are collected from February 2016 to June 2020) to answer next question 
 
+1. Find out Weather conditions effect on accidents
+    1.1 Winter/Summer
+    1.2 Visibility - rain/fog/night
+    1.3 Accident severity dependance on weather
+2. Find out Daytime effect on traffic accident
+    2.1 Fatigue effect
+3. Find out Payday effect on accident rate
+4. Most frequent road ammenity associated to accident
+5. Plot Higher accident rate by  City /State/HW 
 
-## 1. Data
+# Dataset 
+https://www.kaggle.com/sobhanmoosavi/us-accidents?select=US_Accidents_June20.csv
 
-## 2. 5 Hypotheses
+# Task breakdown 
+## 1 Understand Data
+
+## 2. Finalize Hypotheses
 
 ## 3. Data cleanup/reorg
 
