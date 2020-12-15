@@ -45,6 +45,7 @@ Code was created using **Jupiter Notebook 6.0.3 /Python 3.8.3**
 3. Find out Payday effect on accident rate
 4. Most frequent road ammenity associated to accident
 5. Plot Higher accident rate by  City /State/HW 
+6. Holidays traffic accident rate
 
 # Dataset 
 https://www.kaggle.com/sobhanmoosavi/us-accidents?select=US_Accidents_June20.csv
