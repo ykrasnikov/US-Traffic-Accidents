@@ -33,9 +33,13 @@ Code was created using **Jupiter Notebook 6.0.3 /Python 3.8.3**
  We will use Kaggle's countrywide car accident dataset, which covers 49 states of the USA (The accident data are collected from February 2016 to June 2020) to answer next question 
 
 1. Find out Weather conditions effect on accidents
+
     1.1 Winter/Summer
+   
     1.2 Visibility - rain/fog/night
+   
     1.3 Accident severity dependance on weather
+
 2. Find out Daytime effect on traffic accident
     2.1 Fatigue effect
 3. Find out Payday effect on accident rate
