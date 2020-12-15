@@ -9,3 +9,6 @@ weather data for 30 days
 3. identify faulty  equipment
 4. effects of clouds or other wearher on link between temperature and irradiation
 5. most efficient times of the day for power plant
+
+data set
+https://www.kaggle.com/anikannal/solar-power-generation-data
