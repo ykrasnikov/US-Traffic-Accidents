@@ -1,6 +1,5 @@
 # project data file
-*.csv
-*.xlsx
+US_Accidents_June20.csv
 api*.py
 
 # Byte-compiled / optimized / DLL files
