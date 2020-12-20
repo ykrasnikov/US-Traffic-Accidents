@@ -1,7 +1,8 @@
 # project data file
-US_Accidents_June20.csv
-api*.py
 
+api*.py
+*.csv
+*.xlsx
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
