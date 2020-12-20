@@ -48,7 +48,11 @@ Code was created using **Jupiter Notebook 6.0.3 /Python 3.8.3**
 6. Holidays traffic accident rate
 
 # Dataset 
+## US Traffic Accidents
 https://www.kaggle.com/sobhanmoosavi/us-accidents?select=US_Accidents_June20.csv
+
+## US Cities population 
+https://www.census.gov/data/tables/time-series/demo/popest/2010s-total-cities-and-towns.html
 
 # Task breakdown 
 ## 1 Understand Data
