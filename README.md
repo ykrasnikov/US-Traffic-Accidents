@@ -13,7 +13,7 @@ Code was created using **Jupiter Notebook 6.0.3 /Python 3.8.3**
 
 # 
 
-# LINK TO ANALYSIS PRESENTATION - [README.MD](Analysis/README.MD)
+# LINK TO ANALYSIS PRESENTATION - [README.MD](/Analysis/README.MD)
 
 # Requirements
 ## Development Requirements:
