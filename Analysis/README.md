@@ -1,9 +1,16 @@
 # Team 3 Project Analysis: Traffic Accidents
 
-## Files/Results
-Jupiter  Notebook - [WeatherPy.ipynb](weather_py/WeatherPy.ipynb)
-Report is included in the notebook 
-## Observations
+## Content:
+### 1. Data Set Analysis And Clean-up
+### 2. Accidents by States 
+### 3. Accidents by TX Counties
+### 4. Weather Conditions effect accidents 
+### 5. Daytime effect
+### 6. Road Amenity effect
+### 7. Payday effect 
+### 8. Holidays effect 
+
+
 ## 1. Data Set Analysis And Clean Up 
 
 ## 1.1 Original Data Set 
