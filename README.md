@@ -51,13 +51,13 @@ https://www.kaggle.com/sobhanmoosavi/us-accidents?select=US_Accidents_June20.csv
 
 # Task breakdown 
 ## 1 Understand Data
-
+https://github.com/ortegaorlando2/team3-project1.git
 ## 2. Finalize Hypotheses
 
 ## 3. Data cleanup/reorg
-
+https://github.com/ortegaorlando2/team3-project1.git
 ## 4. Analysis
 
 ## 5. Graphs/charts
-
+https://github.com/ortegaorlando2/team3-project1.git
 ## 6. Report/presentation
