@@ -24,7 +24,7 @@ https://www.kaggle.com/sobhanmoosavi/us-accidents?select=US_Accidents_June20.csv
 
 ### 2016 and 2020 is not full so dataset was filtered for 2017,2018,2019
 
-## US Cities population 
+## US population 
 https://www.census.gov/data/tables/time-series/demo/popest/2010s-total-cities-and-towns.html
 
 ___________________
@@ -213,7 +213,7 @@ _______________
 
 ### Observations:
 Travis county with Austin stands out with a higher rate.
-#### Scatter plot  US States Accidents  
+#### Scatter plot  TX Counties Accidents  
 
 <img src="output/TX_US_accidents_scatter_plt.png" align="center" width="600"/>
 
@@ -303,7 +303,7 @@ Does visibility play a factor in traffic incidents in Texas?
 ### Observations:
 No, there was no correlation that limited visibility caused any additional effects on whether an incident occurred or not.  The majority of the incidents reported had a 10 mile
 visibility supporting this conclusion.  While this data covered traffic delays it did not dive into the true causes of these incidents, one site on the internet gave the top 5 reasons
-for accidents in Texas were failure to control speed, driver inattention, failure to drive in a single lane, failure to yield when turning left and usafe lane changes.  Tailgatomg was a close sixth cause.  
+for accidents in Texas were failure to control speed, driver inattention, failure to drive in a single lane, failure to yield when turning left and usafe lane changes.  Tailgatig was a close sixth cause.  
 
 **_LINK TO CODE - [pb_WeatherEffects-Final.ipynb](../CODE_data_cleanup/pb_WeatherEffects-Final.ipynb)_**
 ___________________
@@ -335,23 +335,73 @@ Obviously, there is a greater distribution of accidents by daytime hours than ni
 
 **_LINK TO CODE - [cars_vs_ammenities_texas](../amenities-and-time-of-day/cars_vs_ammenities_texas.ipynb)_**
 
-# 7. Day of Week Effect
-We will anylize distribution by week day ,TX data sample.
+# 7. Day of the week/month effect
+## 7.1 Month effect
 
-<img src="output/YK_TX_accidents_weekday_boxplot.png" align="center" width="400"/>
+<img src="output/OO_TX_accidents_month_barplot.png" align="center" width="600"/>
+
+### Observations:
+
+We analyzed the data to see if we can find how the traffic delays related to accidents vary throughout the months, day of the week and propose some explanations for the observed distributions
+The graph below shows the variations of traffic delays with the month. We see that the number of traffic delays is progressively lower as we go into the summer months with the lowest number of traffic delays due to accidents on the month of July. The number of delays goes back to high numbers in August, which we interpret as "return to work/classes effect"  
+__________________
+## 7.2 Weekdays effect
+<img src="output/OO_TX_accidents_dayofweek_barplot.png" align="center" width="600"/>
+
+
+### Observations:
+The next analysis done with this data (from Texas) was to prove if Fridays are the day of the week when most traffic delays occur. Our intuition and common sensense suggests that on Fridays people are getting paid, want to go back home fast or have some alcohol to celebrate, hence there are more chances for accidents and traffic delays. However, the analysis of the data shows that Friday is not very different in the number of traffic slow-downs due to accidents than other days of the standard work week. However, on weekends (Saturday and Sunday) slow-downs due to accidents are less frequent. One interpretation is that less people are driving and hence traffic is smoother on weekends. Curiously, on Mondays traffic slow-downs due to accidents is lower than any other day of the work week and perhaps this is due to higher degree of awareness and less fatigue at the start of the work week.
+___________________________
+<img src="output/OO_TX_accidents_dayofweekre-scaled_barplot.png" align="center" width="600"/>
+
+### Observations:
+In order to see better the details of the differences in the day of the week effect we re-scaled the y axis, as shown below. When we use a different scale in the y axis the difference in number of slow-downs for the weekdays is clearer. Surprisingly, Tuesdays have the highest number of traffic slow downs, but the reasons are not well-understood. Friday comes second in the ranking and this could indicate that our hypothesis is at least partially correct.
+________________
+## 7.2 Day of month effect
+<img src="output/OO_TX_accidents_dayofmonth_barplot.png" align="center" width="600"/>
+
+### Observations:
+Finally, we analyzed the distribution of traffic delays per day of the month in Texas. The variability is not easy to understand. The graph below suggests that most days of the calendar month have similar number of slow-downs due to accidents. Four months of the year have 30 days and seven months have 31 days, February has either 28 or 29 days. It is not very clear that the end of the month, a common payday, has a strong effect on the number of slow-downs due to accidents. The average of slow-downs due to accidents is not greater on a 30th day than any other day of the month, although the average number of slow-downs on the 31st could be (comparatively) greater than any other day of the month if we double the count observed.
+_________________________
+Below we give a link to the code that contains the portions of the project related to the table of content #7. This part of the code also contains the reading of the csv file, the conversion of strings to datetime timestamps and the creation of a dataframe with extra columns for each part of the timestamp (year, month, day, hour, minute, second) of the start and end of the traffic slow downs. The timestamps have to be separated to do arithmetic operations and analyses of the distribution of slow downs due to accidents. The month of the year was used to identify in which season a delay in traffic due to an accident occurred, in adddition to other analyses that have been used throughout the project. We used the csv output of the dataframe to share the timestamp fractionation.
+**_LINK TO CODE - [orlando_code](../ooCode/oo01022021.ipynb)_**
+
+# 8. Holidays Effect
+in order to remove day of the week variation we will anylize distribution by week day ,US data sample ( 2018-2019).
+
+<img src="output/YK_US_accidents_weekday_boxplot.png" align="center" width="400"/>
 
 _______________
  data  |Mon|Tue|Wed|Thu|Fri|Sat|Sun
 ---|---|---|---|---|---|---|---
-mean|	281.56|	297.39|	295.19|	285.84|	296.35|	72.70|	59.35
-median|	287|301|296|289|299|66|50|
+mean|3025|	3201|	3170|	3055|	3188|	1090|	962
+median|	2941|	3115|	3110|	3080|	3102|	982|	887|
+________________________
+### Method:
+Next we merge lower quartile data with holidays dates 
 _______________________
+
+Date|US Holiday|Accidents Count lower quartile|Year|Month
+---|---|---|---|---
+2018-01-01|New Year's Day|980.0|2018.0|1.0
+2018-01-15|Martin Luther King Jr. Day|||
+2018-05-28|Memorial Day|1860.0|2018.0|5.0
+2018-07-04|Independence Day|1593.0|2018.0|7.0
+2018-09-03|Labor Day|1644.0|2018.0|9.0
+2018-11-12|Veterans Day|||
+2018-11-22|Thanksgiving|2051.0|2018.0|11.0
+2018-12-25|Christmas Day|682.0|2018.0|12.0
+2019-01-01|New Year's Day|1177.0|2019.0|1.0
+2019-01-21|Martin Luther King Jr. Day|2483.0|2019.0|1.0
+2019-05-27|Memorial Day|1734.0|2019.0|5.0
+2019-07-04|Independence Day|1350.0|2019.0|7.0
+2019-09-02|Labor Day|2250.0|2019.0|9.0
+2019-11-11|Veterans Day|||
+2019-11-28|Thanksgiving|985.0|2019.0|11.0
+2019-12-25|Christmas Day|1278.0|2019.0|12.0
+
 ### Observations:
-Friday is second highest Accident rate day of the week.Which can be attributed to more traffic as people show up for pay day. Monday is lowest among weekdays , as people often add monday to their weekend holidays. Sunday and Saturday have lower accident rates as logically - work commute is less during weekend. 
+All US holidays with exception of Veteran Day & Martin Luther King Day are within lower quartiles , indicating lower traffic accident rates
 
-<img src="output/accidents_per_hour.png" align="center" width="400"/>
 
-### Observations:
-Obviously, there is a greater distribution of accidents by daytime hours than night time. Even further, there seem to be spikes in accident traffic during the hours of 6:00am to around 11:00am and then again from 4:00pm to 7:00pm: representing some really-bad-mronings and evenings for rush hour commuters.
-
-**_LINK TO CODE - [cars_vs_ammenities_texas](../amenities-and-time-of-day/cars_vs_ammenities_texas.ipynb)_**
+**_LINK TO CODE - [YK_US_Data_traffic_analysis](../CODE_data_cleanup/YK_US_Data_traffic_analysis.ipynb)_**
