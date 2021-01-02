@@ -161,8 +161,8 @@ ______________________
 
 
 ### Observations:
-You can observe jump in accidents count on US bar chart  from Jul 2017 to Aug 2018 , in H1 2017 data was averaging around 45K and rest of the data is averaging around 70+K. We attribute this to qaulity of data set, and if season related analysis needs to be done data for 2017 have to be excluded. 
-Texas sample for 2017 does not contain any significant variations - so for TX all  3 years can be used
+You can observe jump in accidents count on US bar chart  from Jul 2017 to Aug 2018 , in H1 2017 data was averaging around 45K and rest of the data is averaging around 70+K. We attribute this to qaulity of data set, and if season related analysis needs to be done, data for 2017 have to be excluded. 
+Texas sample for 2017 does not contain any significant variations - so for TX all 3 years can be used
 
 **_LINK TO CODE - [YK_US_Data_traffic_analysis.ipynb](../CODE_data_cleanup/YK_US_Data_traffic_analysis.ipynb)_**
 
@@ -221,7 +221,7 @@ Travis county with Austin stands out with a higher rate.
 
 
 ### Observations:
-In general – densely populated areas - Harris(Houston), Dallas, Travis (Ausitn), Bexar(San Antonio) megapoloices  are corresponded to higher traffic accidents frequency.
+In general – densely populated areas - Harris(Houston), Dallas, Travis (Ausitn), Bexar(San Antonio) megapolises  are corresponded to higher traffic accidents frequency.
 ___________________
 County|	Yearly Accident rate | Population
 ---|---|---
@@ -276,7 +276,7 @@ In what type of weather conditions do we find the most incidents in Texas?
 ### Observations:
 Strangely enough, when it comes to Texas Highways, Clear weather has the most incidents with around 60,000 during the 3 year period.   This 20,000 more
 than the next highest cause - Mostly Cloudy.   Cloudiness seems to be a slight factor in the majority of all other incidents.  Any type of cloudiness, seems to 
-affect the overall ability to drive in Texas.  It was expected that a heavy rain would be more of a cause of concern but that was not the case.  Light rain caused
+affect the overall ability to drive in Texas.  It was expected that a heavy rain would be more of a cause of concern, but that was not the case.  Light rain caused
 more of an issue than the heavier rain.   Ice/Snow were really not a factor due to limited occurrences in the State of Texas. 
 _____________________
 ## 4.3 Time of the day effect
@@ -303,7 +303,7 @@ Does visibility play a factor in traffic incidents in Texas?
 
 ### Observations:
 No, there was no correlation that limited visibility caused any additional effects on whether an incident occurred or not.  The majority of the incidents reported had a 10 mile
-visibility supporting this conclusion.  While this data covered traffic delays it did not dive into the true causes of these incidents, one site on the internet gave the top 5 reasons
+visibility - supporting this conclusion.  While this data covered traffic delays it did not dive into the true causes of these incidents, one site on the internet gave the top 5 reasons
 for accidents in Texas were failure to control speed, driver inattention, failure to drive in a single lane, failure to yield when turning left and usafe lane changes.  Tailgatig was a close sixth cause.  
 
 **_LINK TO CODE - [pb_WeatherEffects-Final.ipynb](../CODE_data_cleanup/pb_WeatherEffects-Final.ipynb)_**
@@ -323,16 +323,16 @@ Based on this evidence, we assume intersections for automobils and pedestrians a
 _______________________________
 # 6. Time of Day Effect
 
-More accidents happen during the daytime vs. the nightime by about 4/1. 
+The number of accidents during the daytime outnumber the number of accidents during the nightime by about 4/1. 
 
 <img src="output/day_night_accident_share.png" align="center" width="400"/>
 
-Given this distribution, we broke the date down a little more:
+Given this distribution, we broke the data down a little more:
 
 <img src="output/accidents_per_hour.png" align="center" width="400"/>
 
 ### Observations:
-Obviously, there is a greater distribution of accidents by daytime hours than night time. Even further, there seem to be spikes in accident traffic during the hours of 6:00am to around 11:00am and then again from 4:00pm to 7:00pm: representing some really-bad-mronings and evenings for rush hour commuters.
+As you can see, there is a greater distribution of accidents by daytime hours than night time. Even further, there seem to be spikes in accident traffic during the hours of 6:00am to around 11:00am and then again from 4:00pm to 7:00pm: representing some "really bad" mornings and evenings for rush hour commuters.
 
 **_LINK TO CODE - [cars_vs_ammenities_texas](../amenities-and-time-of-day/cars_vs_ammenities_texas.ipynb)_**
 
@@ -343,7 +343,7 @@ Obviously, there is a greater distribution of accidents by daytime hours than ni
 
 ### Observations:
 
-We analyzed the data to see if we can find how the traffic delays related to accidents vary throughout the months, day of the week and propose some explanations for the observed distributions
+We analyzed the data to see if we can find how traffic delays related to accidents vary throughout the months of the year and day of the week, and we propose some explanations for the observed distributions.
 The graph below shows the variations of traffic delays with the month. We see that the number of traffic delays is progressively lower as we go into the summer months with the lowest number of traffic delays due to accidents on the month of July. The number of delays goes back to high numbers in August, which we interpret as "return to work/classes effect"  
 __________________
 ## 7.2 Weekdays effect
@@ -351,7 +351,7 @@ __________________
 
 
 ### Observations:
-The next analysis done with this data (from Texas) was to prove if Fridays are the day of the week when most traffic delays occur. Our intuition and common sensense suggests that on Fridays people are getting paid, want to go back home fast or have some alcohol to celebrate, hence there are more chances for accidents and traffic delays. However, the analysis of the data shows that Friday is not very different in the number of traffic slow-downs due to accidents than other days of the standard work week. However, on weekends (Saturday and Sunday) slow-downs due to accidents are less frequent. One interpretation is that less people are driving and hence traffic is smoother on weekends. Curiously, on Mondays traffic slow-downs due to accidents is lower than any other day of the work week and perhaps this is due to higher degree of awareness and less fatigue at the start of the work week.
+The next analysis done with this data (from Texas) was to prove if Fridays are the day of the week when most traffic delays occur. Our intuition and common sense suggests that on Fridays people are getting paid, want to go back home fast or have some alcohol to celebrate, hence there are more chances for accidents and traffic delays. However, the analysis of the data shows that Friday is not very different in the number of traffic slow-downs due to accidents than other days of the standard work week. However, on weekends (Saturday and Sunday) slow-downs due to accidents are less frequent. One interpretation is that less people are driving and hence traffic is smoother on weekends. Curiously, on Mondays traffic slow-downs due to accidents is lower than any other day of the work week and perhaps this is due to higher degree of awareness and less fatigue at the start of the work week.
 ___________________________
 <img src="output/OO_TX_accidents_dayofweekre-scaled_barplot.png" align="center" width="600"/>
 
@@ -368,7 +368,7 @@ Below we give a link to the code that contains the portions of the project relat
 **_LINK TO CODE - [orlando_code](../ooCode/oo01022021.ipynb)_**
 
 # 8. Holidays Effect
-in order to remove day of the week variation we will anylize distribution by week day ,US data sample ( 2018-2019).
+In order to remove day of the week variation we will anylize distribution by week day ,US data sample ( 2018-2019).
 
 <img src="output/YK_US_accidents_weekday_boxplot.png" align="center" width="400"/>
 
@@ -402,7 +402,7 @@ Date|US Holiday|Accidents Count lower quartile|Year|Month
 2019-12-25|Christmas Day|1278.0|2019.0|12.0
 
 ### Observations:
-All US holidays with exception of Veteran Day & Martin Luther King Day are within lower quartiles , indicating lower traffic accident rates
+All US holidays with exception of Veteran's Day & Martin Luther King Jr. Day are within lower quartiles - indicating lower traffic accident rates.
 
 
 **_LINK TO CODE - [YK_US_Data_traffic_analysis](../CODE_data_cleanup/YK_US_Data_traffic_analysis.ipynb)_**
