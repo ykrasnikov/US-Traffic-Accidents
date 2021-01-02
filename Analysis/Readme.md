@@ -24,8 +24,10 @@ https://www.kaggle.com/sobhanmoosavi/us-accidents?select=US_Accidents_June20.csv
 
 ### 2016 and 2020 is not full so dataset was filtered for 2017,2018,2019
 
-## US population 
-https://www.census.gov/data/tables/time-series/demo/popest/2010s-total-cities-and-towns.html
+## US population by State
+https://www.census.gov/data/tables/time-series/demo/popest/2010s-state-total.html
+## TX population by county
+https://www.texas-demographics.com/counties_by_population
 
 ___________________
 ## 1.2 Data Overview : Null Values
@@ -134,7 +136,7 @@ ___________________
 <img src="output/YK_US_accidents_States_bar.png" align="center" width="600"/>
 
 ### Observations:
-
+Accidents distribution indicate imperfection of data as 2017 is represented considerably lower. Top 3 states are with the most population - CA,TX and FL. Then SC and NC which are 9th and 23rd on populations.
 **_LINK TO CODE - [YK_US_Data_traffic_analysis.ipynb](../CODE_data_cleanup/YK_US_Data_traffic_analysis.ipynb)_**
 
 
@@ -143,7 +145,6 @@ _______________________
 ## 1.5 US States census data 2019 
 <img src="output/YK_US_States_Census_bar_plt.png" align="center" width="600"/>
 
-### Observations:
 
 **_LINK TO CODE - [YK_clean_census_data_USstate_TXcounty.ipynb](../CODE_data_cleanup/YK_clean_census_data_USstate_TXcounty.ipynb)_**
 
