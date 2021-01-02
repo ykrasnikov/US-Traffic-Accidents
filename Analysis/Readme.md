@@ -258,12 +258,12 @@ From 2017 to 2019, there were 248,299 traffic incidents on Texas roads. What rol
 _________________
 ## 4.1 Seasons effect
 Do the 4 seasons matter in Texas in relation to accidents/incidents?
-
+### Observations:
 There is no significant difference in the number of incidents in Texas between each of the seasons. Fall is slightly higher than the rest of the seasons.
 
 <img src="output/TAbyseason.png" align="center" width="400"/>
 
-
+### Observations:
 Fall is slightly elevated with 64,670 incidents, Winter has 63,184, Spring has 61,900 and Summer has the least with 58,544.
 ___________________
 
@@ -272,6 +272,7 @@ In what type of weather conditions do we find the most incidents in Texas?
 
 <img src="output/WeatherConditions.png" align="center" width="400"/>
 
+### Observations:
 Strangely enough, when it comes to Texas Highways, Clear weather has the most incidents with around 60,000 during the 3 year period.   This 20,000 more
 than the next highest cause - Mostly Cloudy.   Cloudiness seems to be a slight factor in the majority of all other incidents.  Any type of cloudiness, seems to 
 affect the overall ability to drive in Texas.  It was expected that a heavy rain would be more of a cause of concern but that was not the case.  Light rain caused
@@ -282,6 +283,7 @@ In the top 10 weather conditions, is time of day a factor?
 
 <img src="output/TODWeatherConditions.png" align="center" width="400"/>
 
+### Observations:
 As we can see from the chart, more accidents happen during the day than they do at night.  Overcast skies had a larger role at night than all other weather conditions
 with the exception of clear. 
 ___________________________
@@ -290,7 +292,7 @@ What type of delays are caused by these incidents?
 
 <img src="output/SeverityWeatherConditions.png" align="center" width="400"/>
 
-
+### Observations:
 Severity shows the severity of the accident in terms of traffic impact. One being the least, four being the most. In the top 10 weather conditions, the majority of the accidents fall into the 2 and 3 severity levels. For the most part, they fall into category 2 meaning that there is a slight delay when an accident occurs.
 _____________________
 ##  4.5 Visibility effect
@@ -298,7 +300,7 @@ Does visibility play a factor in traffic incidents in Texas?
 
 <img src="output/visability.png" align="center" width="400"/>
 
-
+### Observations:
 No, there was no correlation that limited visibility caused any additional effects on whether an incident occurred or not.  The majority of the incidents reported had a 10 mile
 visibility supporting this conclusion.  While this data covered traffic delays it did not dive into the true causes of these incidents, one site on the internet gave the top 5 reasons
 for accidents in Texas were failure to control speed, driver inattention, failure to drive in a single lane, failure to yield when turning left and usafe lane changes.  Tailgatomg was a close sixth cause.  
@@ -309,17 +311,13 @@ ___________________
  
 **Evaluating Car Accidents in Texas by Traffic Safety Amenities and Time of Day**
 
-## Files/Results
-[my_notebook](../amenities-and-time-of-day/cars_vs_ammenities_texas.ipynb)
-
-
-### _Traffic Safety Amenities_
-
+## 5.1 Traffic Safety Amenities
+### Observations:
 Of the auto accidents recorded in Texas from years 2017-2019, only about half recorded traffic safety amenities involved in the accidents. The overwhelming plurality of these accidents involved traffic_signals. Second and thrid runners-up are awarded to Junctions and Crossings.
 
 <img src="output/accidents_per_amenity.png" align="center" width="400"/>
 
-
+### Observations:
 Based on this evidence, we assume intersections for automobils and pedestrians alike are the settings for higher accident rates.
 _______________________________
 # 6. Time of Day Effect
@@ -329,9 +327,10 @@ More accidents happen during the daytime vs. the nightime by about 4/1.
 <img src="output/day_night_accident_share.png" align="center" width="400"/>
 
 Given this distribution, we broke the date down a little more:
+
 <img src="output/accidents_per_hour.png" align="center" width="400"/>
 
-
+### Observations:
 Obviously, there is a greater distribution of accidents by daytime hours than night time. Even further, there seem to be spikes in accident traffic during the hours of 6:00am to around 11:00am and then again from 4:00pm to 7:00pm: representing some really-bad-mronings and evenings for rush hour commuters.
 
 **_LINK TO CODE - [cars_vs_ammenities_texas](../amenities-and-time-of-day/cars_vs_ammenities_texas.ipynb)_**
