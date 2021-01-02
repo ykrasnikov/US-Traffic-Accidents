@@ -29,7 +29,7 @@ https://www.census.gov/data/tables/time-series/demo/popest/2010s-total-cities-an
 
 ___________________
 ## 1.2 Data Overview : Null Values
-
+_________________________
 Data field| Count
 ---|---
 ID |                      2563837
@@ -82,9 +82,10 @@ Civil_Twilight  |         2563778
 Nautical_Twilight  |      2563778
 Astronomical_Twilight  |  2563778
 Year                |     2563837
-
+______________________
 ### Observations:
 Good qaulity data set - minimal null values , for our area of analysis data set is quite full :
+________________________
 Data field| Count
 ---|---
 ID |                      2563837
@@ -271,7 +272,6 @@ In what type of weather conditions do we find the most incidents in Texas?
 
 <img src="output/WeatherConditions.png" align="center" width="400"/>
 
-
 Strangely enough, when it comes to Texas Highways, Clear weather has the most incidents with around 60,000 during the 3 year period.   This 20,000 more
 than the next highest cause - Mostly Cloudy.   Cloudiness seems to be a slight factor in the majority of all other incidents.  Any type of cloudiness, seems to 
 affect the overall ability to drive in Texas.  It was expected that a heavy rain would be more of a cause of concern but that was not the case.  Light rain caused
@@ -284,7 +284,7 @@ In the top 10 weather conditions, is time of day a factor?
 
 As we can see from the chart, more accidents happen during the day than they do at night.  Overcast skies had a larger role at night than all other weather conditions
 with the exception of clear. 
-
+___________________________
 ## 4.4 Accident Severity vs Weather effects
 What type of delays are caused by these incidents?
 
@@ -292,7 +292,7 @@ What type of delays are caused by these incidents?
 
 
 Severity shows the severity of the accident in terms of traffic impact. One being the least, four being the most. In the top 10 weather conditions, the majority of the accidents fall into the 2 and 3 severity levels. For the most part, they fall into category 2 meaning that there is a slight delay when an accident occurs.
-
+_____________________
 ##  4.5 Visibility effect
 Does visibility play a factor in traffic incidents in Texas?
 
