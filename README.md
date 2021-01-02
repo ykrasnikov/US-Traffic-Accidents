@@ -9,7 +9,9 @@ Code was created using **Jupiter Notebook 6.0.3 /Python 3.8.3**
 
 <img src="Images/team.gif" align="left" height="320"/>
 
+
 <img src="Images/creative.jpg" align="center" height="320"/>
+
 
 # 
 
