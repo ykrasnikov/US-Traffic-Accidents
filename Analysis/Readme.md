@@ -7,7 +7,7 @@
 ### 4. Weather Conditions effect accidents 
 ### 5. Road Amenity effect
 ### 6. Daytime effect
-### 7. Payday effect 
+### 7. Day of Week effect 
 ### 8. Holidays effect 
 ________________________
 
@@ -327,6 +327,27 @@ More accidents happen during the daytime vs. the nightime by about 4/1.
 <img src="output/day_night_accident_share.png" align="center" width="400"/>
 
 Given this distribution, we broke the date down a little more:
+
+<img src="output/accidents_per_hour.png" align="center" width="400"/>
+
+### Observations:
+Obviously, there is a greater distribution of accidents by daytime hours than night time. Even further, there seem to be spikes in accident traffic during the hours of 6:00am to around 11:00am and then again from 4:00pm to 7:00pm: representing some really-bad-mronings and evenings for rush hour commuters.
+
+**_LINK TO CODE - [cars_vs_ammenities_texas](../amenities-and-time-of-day/cars_vs_ammenities_texas.ipynb)_**
+
+# 7. Day of Week Effect
+We will anylize distribution by week day ,TX data sample.
+
+<img src="output/YK_TX_accidents_weekday_boxplot.png" align="center" width="400"/>
+
+_______________
+ data  |Mon|Tue|Wed|Thu|Fri|Sat|Sun
+---|---|---|---|---|---|---|---
+mean|	281.56|	297.39|	295.19|	285.84|	296.35|	72.70|	59.35
+median|	287|301|296|289|299|66|50|
+_______________________
+### Observations:
+Friday is second highest Accident rate day of the week.Which can be attributed to more traffic as people show up for pay day. Monday is lowest among weekdays , as people often add monday to their weekend holidays. Sunday and Saturday have lower accident rates as logically - work commute is less during weekend. 
 
 <img src="output/accidents_per_hour.png" align="center" width="400"/>
 
