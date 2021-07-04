@@ -13,6 +13,7 @@ Code was created using **Jupiter Notebook 6.0.3 /Python 3.8.3**
 <img src="Images/creative.jpg" align="center" height="320"/>
 
 <br>
+
 * Identify and confirm key hypotheses from data set
 * Pandas’ data wrangle
 * Tools/libraries: Python: pandas, numpy, datetime, matplotlib, re, requests, gmaps,SciPy
